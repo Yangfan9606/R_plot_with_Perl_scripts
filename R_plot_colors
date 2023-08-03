@@ -1,0 +1,9 @@
+# R colors
+# Different Colours for Positive and Negative Values
++ scale_fill_manual(values = c("red", "steelblue"), guide = FALSE)
+
++ scale_fill_brewer(palette='RdBu') 
+### 'Pastel1' 'Pastel2'
+### Accent (8 levels) Dark2 (8) Paired (12) Pastel1 (9) Pastel2 (8) Set1 (9) Set2 (8) Set3 (12)
+### BrBG PiYG PRGn PuOr RdBu RdGy RdYlBu RdYlGn Spectral
+# scale_fill_manual(values = c("#000000", "#736F6E","#C0C0C0", "#98AFC7", "#6698FF", "#153E7E"))
